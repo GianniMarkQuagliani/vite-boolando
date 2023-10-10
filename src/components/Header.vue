@@ -1,6 +1,14 @@
 <script>
+
+import mainMenu from '../data/mainMenu';
+
   export default {
     name: 'Header',
+    data () {
+        return {
+            mainMenu
+        }
+    }
 };
 </script>
 
@@ -10,9 +18,7 @@
             <div class="container row">
                 <nav class="menu">
                     <ul>
-                        <li><a href="#">Uomo</a></li>
-                        <li><a href="#">Donna</a></li>
-                        <li><a href="#">Bambini</a></li>
+                        <li v-for="(item, index) in mainMenu" :key="index"><a :href="item.href">{{ item.text }}</a></li>
                     </ul>
                 </nav>
                 <div class="logo">

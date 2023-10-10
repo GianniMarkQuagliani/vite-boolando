@@ -1,6 +1,12 @@
 <script>
+import userMenu from '../data/userMenu';
   export default {
     name: 'Footer',
+    data () {
+        return {
+            userMenu
+        }
+    }
 };
 </script>
   
@@ -10,9 +16,7 @@
             <nav class="copyright">
                 <h5 class="name-company">Booleando s.r.l</h5>
                 <ul>
-                    <li><a href="#">Informazioni legali</a></li>
-                    <li><a href="#">Informativa sulla privacy</a></li>
-                    <li><a href="#">Diritto di recesso</a></li>
+                    <li v-for="(item, index) in userMenu" :key="index"><a :href="item.href">{{ item.text }}</a></li>
                 </ul>
             </nav>
         </div>

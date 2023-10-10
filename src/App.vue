@@ -1,12 +1,23 @@
 <script>
+import Header from './components/Header.vue';
+import MainSection from './components/MainSection.vue';
+import Footer from './components/Footer.vue';
+
 export default {
   nome: 'App',
+  components: {
+    Header,
+    MainSection,
+    Footer,
+  },
 
 }
 </script>
 
 <template>
-  <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab ratione eveniet, dignissimos dolorem voluptates molestiae totam soluta accusamus. Totam facilis deleniti recusandae eum commodi itaque provident odio aut iure minus!</h1>
+  <Header />
+  <MainSection />
+  <Footer />
 </template>
 
 <style lang="scss">

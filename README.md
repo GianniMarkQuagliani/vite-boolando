@@ -5,4 +5,5 @@
 - Uttilizzo lo stesso markup dell’esercizio Boolandi già realizzato organizzando gli stili con SCSS
 - Importo i vari componenti nell'App.vue e finisco l'Header.vue
 - Creo anche il Footer
-- ho creato CardProdotti.vue, ho creato dentro data prodotti.js e ci ho messo gli arrey
+- ho creato MainSection.vue, ho creato dentro data prodotti.js e ci ho messo gli arrey
+- Ho aggiunto il mio Main nel MainSection non dinamicamente

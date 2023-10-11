@@ -7,3 +7,4 @@
 - Creo anche il Footer
 - ho creato MainSection.vue, ho creato dentro data prodotti.js e ci ho messo gli arrey
 - Ho aggiunto il mio Main nel MainSection non dinamicamente
+- ora li ho aggiunti in modo dinamico

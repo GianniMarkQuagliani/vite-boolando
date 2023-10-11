@@ -2,6 +2,7 @@
 import Header from './components/Header.vue';
 import MainSection from './components/MainSection.vue';
 import Footer from './components/Footer.vue';
+import Card from './components/Card.vue';
 
 export default {
   nome: 'App',
@@ -9,6 +10,7 @@ export default {
     Header,
     MainSection,
     Footer,
+    Card
   },
 
 }

@@ -1,7 +1,7 @@
 export default [
     {
-      primaryImage: '../assets/img/1.webp',
-      secondaryImage: '../assets/img/1b.webp',
+      primaryImage: '/img/1.webp',
+      secondaryImage: '/img/1b.webp',
       discount: '-50%',
       sostenibilita: true,
       marca: "Levi's",
@@ -10,8 +10,8 @@ export default [
       lastPrice: 14.99
     },
     {
-      primaryImage: '../assets/img/2.webp',
-      secondaryImage: '../assets/img/2b.webp',
+      primaryImage: '/img/2.webp',
+      secondaryImage: '/img/2b.webp',
       discount: '-30%',
       sostenibilita: false,
       marca: "Guess",
@@ -20,8 +20,8 @@ export default [
       lastPrice: 20.99
     },
     {
-      primaryImage: '../assets/img/3.webp',
-      secondaryImage: '../assets/img/3b.webp',
+      primaryImage: '/img/3.webp',
+      secondaryImage: '/img/3b.webp',
       discount: '-30%',
       sostenibilita: false,
       marca: "Come Zucchero Filato",
@@ -30,8 +30,8 @@ export default [
       lastPrice: 129.99
     },
     {
-      primaryImage: '../assets/img/4.webp',
-      secondaryImage: '../assets/img/4b.webp',
+      primaryImage: '/img/4.webp',
+      secondaryImage: '/img/4b.webp',
       discount: '-50%',
       sostenibilita: true,
       marca: "Levi's",
@@ -40,8 +40,8 @@ export default [
       lastPrice: 29.99
     },
     {
-      primaryImage: '../assets/img/5.webp',
-      secondaryImage: '../assets/img/5b.webp',
+      primaryImage: '/img/5.webp',
+      secondaryImage: '/img/5b.webp',
       discount: '-50%',
       sostenibilita: true,
       marca: "Maya Deluxe",
@@ -50,8 +50,8 @@ export default [
       lastPrice: 99.99
     },
     {
-      primaryImage: '../assets/img/6.webp',
-      secondaryImage: '../assets/img/6b.webp',
+      primaryImage: '/img/6.webp',
+      secondaryImage: '/img/6b.webp',
       discount: null,
       sostenibilita: false,
       marca: "Esprit",
